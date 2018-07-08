@@ -43,9 +43,11 @@ body {
 #total-is {
     background-color: aqua;
     color: white;
+    margin: 2px;
 }
 
 #total-score {
     background-color: #00ffff;
     color: white;
+    margin: 2px;
 }
