@@ -21,7 +21,7 @@ var resetAndstart = function () {
     //generates a random number between 19 and 120//
     random_result = Math.floor(Math.random() * 102) + 19;
     //displays the number
-    $("#result").html('Random Result: ' + random_result);
+    $("#result").html(random_result);
 
     for(var i = 0; i < 4; i++){
         //generates random numbers and affixes them to the crystals//
@@ -57,7 +57,7 @@ $(document).on('click', ".crystal", function () {
     $("#previous").html('Total score: ' + previous);
     
     //conditional statements for when wins and losses are displyed
-    if (previous > random_result){
+    if (previous > random_result) {
         losses++;
         
         $("#losses").html('You lost: ' + losses);
@@ -67,7 +67,7 @@ $(document).on('click', ".crystal", function () {
         resetAndstart();
 
     }
-    else if (previous === random_result){
+    else if (previous === random_result) {
         wins++;
 
         $("#wins").html('You won: ' + wins);

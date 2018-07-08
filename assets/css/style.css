@@ -1,16 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('./assets/images/background.jpg')
+}
+
+#title-crystal {
+    margin: 2px;
+    background-color: rgb(150, 111, 40);
+    color: white;
+}
+
+#instructions {
+    margin: 2px;
+    background-color: tan;
+    color: green;
+}
+
+#random-result {
+    margin: 2px;
+    background-color: green;
+    color: purple;
+    font-size: 30px;
+}
+
+#wins-losses {
+    margin: 2px;
+    background-color: rgb(21, 212, 226);
+}
 .crystals{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    margin: 2px;
 }
 
 .crystal {
     border: 2px solid black;
-    height: 200px;
-    width: 200px;
-
+    height: 100px;
+    width: 100px;
 }
 
-img {
-    width: 50px;
+#total-is {
+    background-color: aqua;
+    color: white;
+}
+
+#total-score {
+    background-color: #00ffff;
+    color: white;
 }
