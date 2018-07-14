@@ -9,7 +9,7 @@ body {
 }
 
 #title-crystal {
-    margin: 2px;
+    margin: 2px 17px;
     background-color: rgb(150, 111, 40);
     color: white;
 }
@@ -19,20 +19,20 @@ body {
     font-size: 40px;
 }
 #instructions {
-    margin: 2px;
+    margin: 2px 17px;
     background-color: tan;
     color: green;
 }
 
 #random-result {
-    margin: 2px;
+    margin: 2px 2px 2px 17px;
     background-color: green;
     color: purple;
     font-size: 30px;
 }
 
 #wins-losses {
-    margin: 2px;
+    margin: 2px 2px 2px 17px;
     background-color: rgb(21, 212, 226);
 }
 .crystals{
@@ -50,12 +50,12 @@ body {
 #total-is {
     background-color: #25acac;
     color: black;
-    margin: 2px;
+    margin: 2px 17px;
 
 }
 
 #total-score {
     background-color: #25acac;
     color: black;
-    margin: 2px;
+    margin: 2px 17px
 }
